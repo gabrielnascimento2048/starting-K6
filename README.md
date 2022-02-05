@@ -16,4 +16,8 @@ Before install check if have installed chocolatey.
 <pre><code>k6 run file_name.js</code></pre>
 
 #### 3. for run with many users --VUS (virtual users) --duration (how long does this script run): 
-<pre><code>k6 run --vus 10 --duration 30s script.js</code></pre>
+<pre><code>k6 run --vus 10 --duration 30s file_name.js</code></pre>
+
+#### 4. define metrics you can change the metrics '--summary-trend-stats' can also define differents time values unit using (seconds, milliseconds or microseconds) with '--summary-time-unit'  : 
+<pre><code>k6 run --summary-trend-stats="min,avg,med,p(99),p(99.9),max,count" --summary-time-unit=ms  file_name.js
+</code></pre>
