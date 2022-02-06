@@ -50,6 +50,9 @@ Before install check if have installed chocolatey.
 
 >Note that this will require you to run the converter with >`npx @apideck/postman-to-k6 your-postman-file` or, if you >are
 >using an older versions of npm, >`./node_modules/.bin/postman-to-k6 your-postman-file`.
+>run this command inside the folder where the collection.
+
+
 
 and
 
