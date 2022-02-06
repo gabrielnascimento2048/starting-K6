@@ -34,7 +34,8 @@ Before install check if have installed chocolatey.
 </div>
 
 # Postman-to-k6
->
+> base documentation: https://k6.io/blog/load-testing-with-postman-collections/
+> 
 > git clone for this project, currently maintence for apideck_libraries, fork of the original grafana project: 
 ```shell 
  git clone https://github.com/apideck-libraries/postman-to-k6 
