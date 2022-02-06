@@ -60,13 +60,13 @@ and
 ## Usage
 
 To convert an exported collection to a k6 script:
->note: run this command inside the file where the collection.
+>note: run this command inside the folder where the collection.
 
 ```shell
  postman-to-k6 your_collection.json -o k6-script.js
 ```
 
-Then run the script in k6,expect create file libs with your code already converted as usual, using:
+Then run the script in k6, expect to create libs files with your code already converted as usual and them using:
 
 ```shell
  k6 run k6-script.js
